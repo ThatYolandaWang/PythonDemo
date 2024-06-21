@@ -6,7 +6,7 @@ import datetime
 class RequestHandler(BaseHTTPRequestHandler):
 
     def do_POST(self):
-        self.send_error(415, 'not support post!')
+        self.send_error(415, 'not support post!!!')
 
     def do_GET(self):
         self.send_response(200)
