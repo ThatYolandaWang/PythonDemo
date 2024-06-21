@@ -14,7 +14,7 @@ on:
 
   push_request:
     branches:
-      - '**'
+      - main
 
 jobs:
   Explore-GitHub-Actions:
