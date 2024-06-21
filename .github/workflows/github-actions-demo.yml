@@ -10,7 +10,12 @@ on:
       - labeled
   push:
     branches:
-      - main
+      - '**'
+
+  push_request:
+    branches:
+      - '**'
+
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
