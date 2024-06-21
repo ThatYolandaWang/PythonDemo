@@ -8,11 +8,11 @@ on:
     types:
       - opened
       - labeled
-  push:
+  pull:
     branches:
       - '**'
 
-  push_request:
+  pull_request:
     branches:
       - main
 
